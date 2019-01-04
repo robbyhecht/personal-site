@@ -40,3 +40,34 @@ th {
   margin-top: 1em;
   margin-bottom: 6em;
 }
+
+.navbar-end {
+  margin-right: 8%;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+  font-size: 1.5em
+}
+
+nav {
+  padding-top: 8px;
+}
+
+.has-bg-img {
+  background: url('../images/Nashville_Ped_Bridge.jpg');
+  background-size: cover;
+}
+
+.is-1 {
+  color: white;
+}
+
+.is-3 {
+  color: white;
+}
+
+#AboutContentContainer {
+  text-align: left;
+  width: 80%
+}

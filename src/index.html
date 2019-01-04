@@ -18,67 +18,71 @@
 
 <body>
 
-  <!-- Navigation bar -->
-
-  <nav class="navbar is-link is-fixed-top">
-    <div class="navbar-brand">
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="#name">
-          <span class="icon">
-            <!-- <i class="fas fa-info"></i> -->
-          </span>
-          <span>Robby Hecht</span>
-        </a>
-      </div>
-      <div class="navbar-end">
-        <a class="navbar-item" href="#about">
-          <span class="icon">
-            <!-- <i class="fas fa-info"></i> -->
-          </span>
-          <span>About</span>
-        </a>
-        <a class="navbar-item" href="#services">
-          <span class="icon">
-            <!-- <i class="fas fa-bars"></i> -->
-          </span>
-          <span>Services</span>
-        </a>
-        <a class="navbar-item" href="#resume">
-          <span class="icon">
-            <!-- <i class="fas fa-file-alt"></i> -->
-          </span>
-          <span>Resume</span>
-        </a>
-        <a class="navbar-item" href="#portfolio">
-          <span class="icon">
-            <!-- <i class="fas fa-th-list"></i> -->
-          </span>
-          <span>Portfolio</span>
-        </a>
-        <a class="navbar-item" href="#contact">
-          <span class="icon">
-            <!-- <i class="fas fa-envelope"></i> -->
-          </span>
-          <span>Contact</span>
-        </a>
-      </div>
-    </div>
-  </nav>
 
   <!-- Header -->
 
-  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title is-1">
+  <section class="hero is-fullheight">
+
+      <!-- Navigation bar -->
+
+    <nav class="navbar is-fixed-top is-transparent" id="mynav">
+      <div class="navbar-brand">
+        <div class="navbar-burger burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+  
+      <div class="navbar-menu">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <span class="icon">
+              <!-- <i class="fas fa-info"></i> -->
+            </span>
+            <span class="has-text-white">Robby Hecht</span>
+          </a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item has-text-white" href="#about">
+            <span class="icon">
+              <!-- <i class="fas fa-info"></i> -->
+            </span>
+            <span>About</span>
+          </a>
+          <a class="navbar-item has-text-white" href="#services">
+            <span class="icon">
+              <!-- <i class="fas fa-bars"></i> -->
+            </span>
+            <span>Services</span>
+          </a>
+          <a class="navbar-item has-text-white" href="#resume">
+            <span class="icon">
+              <!-- <i class="fas fa-file-alt"></i> -->
+            </span>
+            <span>Resume</span>
+          </a>
+          <a class="navbar-item has-text-white" href="#portfolio">
+            <span class="icon">
+              <!-- <i class="fas fa-th-list"></i> -->
+            </span>
+            <span>Portfolio</span>
+          </a>
+          <a class="navbar-item has-text-white" href="#contact">
+            <span class="icon">
+              <!-- <i class="fas fa-envelope"></i> -->
+            </span>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <div class="hero-body has-bg-img">
+      <div class="container has-text-centered">
+        <h1 class="title is-1" id="header-text">
           Robby Hecht
         </h1>
         <h2 class="subtitle is-3">
@@ -93,14 +97,11 @@
     <!-- Title -->
     <div class="section-heading">
       <h3 class="title is-2">About Me</h3>
-      <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
-      <div class="container">
-        <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
-          field of
-          <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
-          Looking for an opportunity to work and upgrade, as well as being involved in an organization that
-          believes
-          in gaining a competitive edge and giving back to the community.</p>
+      <h4 class="subtitle is-5">"Singer/Codewriter"</h4>
+      <div class="container" id="AboutContentContainer">
+          <p>I moved to Nashville in 2005 to pursue a life as a songwriter and recording artist. I love writing and performing, but somewhere amidst the endless booking emails and hours of solo driving I began to explore other creative outlets, and the one that I've fallen in love with is software development.
+
+          After doing my own independent study for a couple of years, I decided to turbo boost my education by attending Nashville Software School. It's been a powerful experience discovering the front-end capabilities of Javascript and React, and soon what can be done on the back-end with Python/Django. </p>
       </div>
     </div>
 
@@ -145,8 +146,8 @@
         <!-- Profile picture -->
         <div class="card">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
+            <figure>
+              <img src="../images/Robby Hecht at table (1).jpg" alt="Placeholder image">
             </figure>
           </div>
         </div>
@@ -792,3 +793,7 @@
 </body>
 
 </html>
+
+
+<!-- data-target="navbarExampleTransparentExample"
+id="navbarExampleTransparentExample" -->
