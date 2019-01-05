@@ -69,5 +69,36 @@ nav {
 
 #AboutContentContainer {
   text-align: left;
+  width: 80%;
+  line-height: 1.6;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
   width: 80%
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.summary {
+  margin-top: 40px
+}
+
+.about-image-container {
+  margin-right: 20px;
+  /* border-radius: 5px; */
+  height: 80%;
+  width: auto;
+}
+
+#about-image {
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.about-card {
+  border-radius: 2px;
 }
