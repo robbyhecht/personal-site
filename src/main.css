@@ -102,3 +102,7 @@ nav {
 .about-card {
   border-radius: 2px;
 }
+
+#navbar-item:hover {
+  color: lightgray;
+}

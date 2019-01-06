@@ -7,6 +7,7 @@
   });
 })();
 
+
 window.onscroll = function changeClass() { 
   let scrolling = window.pageYOffset | document.body.scrollTop
   if (scrolling > 500) {

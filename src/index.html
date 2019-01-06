@@ -25,50 +25,53 @@
 
       <!-- Navigation bar -->
 
-    <nav class="navbar is-fixed-top is-transparent" id="mynav">
+    <nav class="navbar is-link is-fixed-top is-transparent" id="mynav">
       <div class="navbar-brand">
-        <div class="navbar-burger burger">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-  
-      <div class="navbar-menu">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        
+        <div class="navbar-brand navbar-end">
+
+          <a class="navbar-item" id="navbar-item" href="#">
             <span class="icon">
               <!-- <i class="fas fa-info"></i> -->
             </span>
-            <span class="has-text-white">Robby Hecht</span>
+            <span>Robby Hecht</span>
           </a>
         </div>
+
         <div class="navbar-end">
-          <a class="navbar-item has-text-white" href="#about">
+          <a class="navbar-item" id="navbar-item" href="#about">
             <span class="icon">
               <!-- <i class="fas fa-info"></i> -->
             </span>
             <span>About</span>
           </a>
-          <a class="navbar-item has-text-white" href="#services">
+          <a class="navbar-item" id="navbar-item" href="#services">
             <span class="icon">
               <!-- <i class="fas fa-bars"></i> -->
             </span>
             <span>Services</span>
           </a>
-          <a class="navbar-item has-text-white" href="#resume">
+          <a class="navbar-item" id="navbar-item" href="#resume">
             <span class="icon">
               <!-- <i class="fas fa-file-alt"></i> -->
             </span>
             <span>Resume</span>
           </a>
-          <a class="navbar-item has-text-white" href="#portfolio">
+          <a class="navbar-item" id="navbar-item" href="#portfolio">
             <span class="icon">
               <!-- <i class="fas fa-th-list"></i> -->
             </span>
             <span>Portfolio</span>
           </a>
-          <a class="navbar-item has-text-white" href="#contact">
+          <a class="navbar-item" id="navbar-item" href="#contact">
             <span class="icon">
               <!-- <i class="fas fa-envelope"></i> -->
             </span>
@@ -226,17 +229,17 @@
 
   <!-- Resume -->
   <section class="section" id="resume">
-    <div class="section-heading">
-      <h3 class="title is-2">Resume</h3>
-      <h4 class="subtitle is-5">More about my past</h4>
-      <a href="#" class="button is-link is-medium">
-        <span class="icon">
-          <i class="fas fa-file-alt"></i>
-        </span>
-        <span>Download My Resume</span>
-      </a>
-    </div>
-  </section>
+      <div class="section-heading">
+        <h3 class="title is-2">Resume</h3>
+        <h4 class="subtitle is-5">More about my past</h4>
+        <a href="https://drive.google.com/open?id=1gWycYNT00rtwCpdC4a7MyEO7CquHveMY" target="_blank" class="button is-link is-medium">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Download My Resume</span>
+        </a>
+      </div>
+    </section>
 
   <!-- Portfolio -->
   <section class="section" id="portfolio">
@@ -731,7 +734,3 @@
 </body>
 
 </html>
-
-
-<!-- data-target="navbarExampleTransparentExample"
-id="navbarExampleTransparentExample" -->
