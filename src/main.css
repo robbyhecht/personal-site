@@ -37,7 +37,7 @@ th {
 
 .section-heading {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 6em;
 }
 
@@ -69,14 +69,18 @@ nav {
 
 #AboutContentContainer {
   text-align: left;
-  width: 80%;
+  width: 90%;
   line-height: 1.6;
+  padding-top: 20px;
 }
 
-.profileContainer {
-  display: flex;
-  justify-content: center;
-  width: 80%
+.about-pic {
+  margin-top: 28px;
+}
+
+#picContainer {
+  width: 70%;
+  margin-bottom: 23px;
 }
 
 .subtitle {
@@ -84,18 +88,10 @@ nav {
 }
 
 .summary {
-  margin-top: 40px
-}
-
-.about-image-container {
-  margin-right: 20px;
-  /* border-radius: 5px; */
-  height: 80%;
-  width: auto;
+  margin-top: 25px
 }
 
 #about-image {
-  margin-top: 40px;
   border-radius: 4px;
 	-webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
@@ -106,8 +102,16 @@ nav {
 	box-shadow: 0 3px 5px #777; */
 }
 
-.about-card {
+#about-box {
   border-radius: 2px;
+  margin: 0 10% 0 10%;
+}
+
+.about-div {
+  /* margin: 0 -40px 0 -40px; */
+  padding: 30px 15px 30px 15px;
+  background-color: #CFE1F6;
+  border-radius: 3px;
 }
 
 #navbar-item:hover {
