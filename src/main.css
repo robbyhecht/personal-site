@@ -74,8 +74,8 @@ nav {
 
 #AboutContentContainer {
   text-align: left;
-  width: 90%;
   line-height: 1.6;
+  width: 90%;
   padding-top: 20px;
 }
 
@@ -87,6 +87,12 @@ nav {
   width: 80%;
   margin-bottom: 23px;
 }
+
+/* .profileContainer {
+  display: flex;
+  justify-content: center;
+  width: 80%
+} */
 
 .subtitle {
   text-align: center;
@@ -101,10 +107,6 @@ nav {
 	-webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
   box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-  
-  /* -webkit-box-shadow: 0 3px 2px #777;
-	-moz-box-shadow: 0 3px 2px #777;
-	box-shadow: 0 3px 5px #777; */
 }
 
 #about-box {
@@ -141,16 +143,16 @@ nav {
   justify-content: center;
 }
 
-.icon {
+.logo {
   width: 115px;
   height: 115px;
 }
 
-.iconText {
+.logoText {
   margin-bottom: 2.5rem;
 }
 
-.logo {
+.logoDiv {
   align-items: center;
   text-align: center;
   word-wrap: break-word;
