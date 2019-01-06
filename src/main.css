@@ -35,9 +35,14 @@ th {
   margin-bottom: 2em;
 }
 
+.section {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .section-heading {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 6em;
 }
 
@@ -69,5 +74,86 @@ nav {
 
 #AboutContentContainer {
   text-align: left;
+  line-height: 1.6;
+  width: 90%;
+  padding-top: 20px;
+}
+
+.about-pic {
+  margin-top: 28px;
+}
+
+#picContainer {
+  width: 80%;
+  margin-bottom: 23px;
+}
+
+/* .profileContainer {
+  display: flex;
+  justify-content: center;
   width: 80%
+} */
+
+.subtitle {
+  text-align: center;
+}
+
+.summary {
+  margin-top: 25px
+}
+
+#about-image {
+  border-radius: 4px;
+	-webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+}
+
+#about-box {
+  border-radius: 2px;
+  margin: 0 10% 0 10%;
+}
+
+.about-div {
+  /* margin: 0 -40px 0 -40px; */
+  padding: 30px 15px 30px 15px;
+  background-color: #CFE1F6;
+  border-radius: 3px;
+}
+
+#navbar-item:hover {
+  color: lightgray;
+}
+
+#resumeAboutButtonContainer {
+  text-align: center;
+}
+
+#resumeAboutButton {
+  background-color: rgb(47, 108, 143);
+  color: white;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 115px;
+  height: 115px;
+}
+
+.logoText {
+  margin-bottom: 2.5rem;
+}
+
+.logoDiv {
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
 }

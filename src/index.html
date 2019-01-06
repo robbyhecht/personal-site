@@ -25,50 +25,53 @@
 
       <!-- Navigation bar -->
 
-    <nav class="navbar is-fixed-top is-transparent" id="mynav">
+    <nav class="navbar is-link is-fixed-top is-transparent" id="mynav">
       <div class="navbar-brand">
-        <div class="navbar-burger burger">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-  
-      <div class="navbar-menu">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        
+        <div class="navbar-brand navbar-end">
+
+          <a class="navbar-item" id="navbar-item" href="#">
             <span class="icon">
               <!-- <i class="fas fa-info"></i> -->
             </span>
-            <span class="has-text-white">Robby Hecht</span>
+            <span>Robby Hecht</span>
           </a>
         </div>
+
         <div class="navbar-end">
-          <a class="navbar-item has-text-white" href="#about">
+          <a class="navbar-item" id="navbar-item" href="#about">
             <span class="icon">
               <!-- <i class="fas fa-info"></i> -->
             </span>
             <span>About</span>
           </a>
-          <a class="navbar-item has-text-white" href="#services">
+          <a class="navbar-item" id="navbar-item" href="#technology">
             <span class="icon">
               <!-- <i class="fas fa-bars"></i> -->
             </span>
-            <span>Services</span>
+            <span>Tech</span>
           </a>
-          <a class="navbar-item has-text-white" href="#resume">
+          <a class="navbar-item" id="navbar-item" href="#resume">
             <span class="icon">
               <!-- <i class="fas fa-file-alt"></i> -->
             </span>
             <span>Resume</span>
           </a>
-          <a class="navbar-item has-text-white" href="#portfolio">
+          <a class="navbar-item" id="navbar-item" href="#portfolio">
             <span class="icon">
               <!-- <i class="fas fa-th-list"></i> -->
             </span>
             <span>Portfolio</span>
           </a>
-          <a class="navbar-item has-text-white" href="#contact">
+          <a class="navbar-item" id="navbar-item" href="#contact">
             <span class="icon">
               <!-- <i class="fas fa-envelope"></i> -->
             </span>
@@ -92,213 +95,100 @@
     </div>
   </section>
 
+
+
+
   <!-- About -->
   <section class="section" id="about">
+
     <!-- Title -->
+
     <div class="section-heading">
       <h3 class="title is-2">About Me</h3>
-      <h4 class="subtitle is-5">"Singer/Codewriter"</h4>
-      <div class="container" id="AboutContentContainer">
-          <p>I moved to Nashville in 2005 to pursue a life as a songwriter and recording artist. I love writing and performing, but somewhere amidst the endless booking emails and hours of solo driving I began to explore other creative outlets, and the one that I've fallen in love with is software development.
-
-          After doing my own independent study for a couple of years, I decided to turbo boost my education by attending Nashville Software School. It's been a powerful experience discovering the front-end capabilities of Javascript and React, and soon what can be done on the back-end with Python/Django. </p>
-      </div>
     </div>
 
-    <div class="columns has-same-height is-gapless">
-      <div class="column">
-        <!-- Profile -->
-        <div class="card">
-          <div class="card-content">
-            <h3 class="title is-4">Profile</h3>
+    <!-- Main Card -->
+      <div class="columns about-div">
 
-            <div class="content">
-              <table class="table-profile">
-                <tr>
-                  <th colspan="1"></th>
-                  <th colspan="2"></th>
-                </tr>
-                <tr>
-                  <td>Address:</td>
-                  <td>Guru's Lab</td>
-                </tr>
-                <tr>
-                  <td>Phone:</td>
-                  <td>0123-456789</td>
-                </tr>
-                <tr>
-                  <td>Email:</td>
-                  <td>minion@despicable.me</td>
-                </tr>
-              </table>
-            </div>
-            <br>
-            <div class="buttons has-addons is-centered">
-              <a href="#" class="button is-link">Github</a>
-              <a href="#" class="button is-link">LinkedIn</a>
-              <a href="#" class="button is-link">Twitter</a>
-              <a href="#" class="button is-link">CodeTrace</a>
-            </div>
+        <!-- About summary -->
+
+        <div class="column summary">
+          <div class="container" id="AboutContentContainer">
+              <h4 class="subtitle is-4"><strong>"Singer-Codewriter"</strong></h4>
+              <p class="aboutContent">
+              I moved to Nashville in 2006 to pursue a life as a songwriter and recording artist. I love writing and performing, but somewhere amidst the endless booking emails and hours of solo driving I began to explore other creative outlets, and the one that I've fallen in love with is software development.
+
+              After doing my own independent study for a couple of years, I decided to turbo boost my education by attending Nashville Software School. It's been a powerful experience discovering the front-end capabilities of Javascript and React, and soon what can be done on the back-end with Python/Django.
+              </p>
+              <br />
+              <div id="resumeAboutButtonContainer">
+                <a href="https://drive.google.com/open?id=1gWycYNT00rtwCpdC4a7MyEO7CquHveMY" target="_blank" class="button is-small" id="resumeAboutButton">
+                  <span class="icon">
+                    <i class="fas fa-file-alt"></i>
+                  </span>
+                  <span>Download My Resume</span>
+                </a>
+              </div>  
+
           </div>
         </div>
-      </div>
-      <div class="column">
-        <!-- Profile picture -->
-        <div class="card">
-          <div class="card-image">
-            <figure>
-              <img src="../images/Robby Hecht at table (1).jpg" alt="Placeholder image">
-            </figure>
-          </div>
+
+        <div class="column about-pic">
+            <div class="container" id="picContainer">
+
+          <!-- Profile picture -->
+
+              <!-- <figure class="image is-square"> -->
+                <img id="about-image" src="../images/Robby Hecht at table (1).jpg" alt="Robby Hecht">
+              <!-- </figure> -->
+              </div>
         </div>
       </div>
-      <div class="column">
-        <!-- Skills -->
-        <div class="card">
-          <div class="card-content skills-content">
-            <h3 class="title is-4">Skills</h3>
-            <div class="content">
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>JavaScript:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>Vue.js:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>Node.js:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="75" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>HTML5/CSS3</strong>
-                      <br>
-                      <progress class="progress is-primary" value="95" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>Databases</strong>
-                      <br>
-                      <progress class="progress is-primary" value="66" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
-  <!-- Skills tags -->
-  <!-- <br>
-        <div class="tags custom-tags">
-          <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span
-            class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
-            class="tag is-light">CSS3</span><span class="tag is-light">Bulma</span><span class="tag is-light">Bootstrap</span><span
-            class="tag is-light">jQuery</span><span class="tag is-light">Pug</span><span class="tag is-light">Stylus</span><span
-            class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span
-            class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span
-            class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span>
-        </div> -->
 
-  <!-- Services -->
-  <section class="section" id="services">
+  <!-- technology -->
+  <section class="section" id="technology">
     <div class="section-heading">
-      <h3 class="title is-2">Services</h3>
-      <h4 class="subtitle is-5">What can I do for you?</h4>
+      <h3 class="title is-2">Technology</h3>
     </div>
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Front End Web Development</h4>
-              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-              Vue.js.
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Back End Web Development</h4>
-              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Front End Web Development</h4>
-              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-              Vue.js.
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Back End Web Development</h4>
-              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="techStack">
+      <div class="logoDiv"><img class="logo" src="../images/icons/vscode.png" alt="logo"><p class="logoText">VS Code</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/git.png" alt="logo"><p class="logoText">Git</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/github.png" alt="logo"><p class="logoText">GitHub</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/npm.png" alt="logo"><p class="logoText">NPM</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/html.png" alt="logo"><p class="logoText">HTML5</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/css.png" alt="logo"><p class="logoText">CSS3</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/js.png" alt="logo"><p class="logoText">JavaScript</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/react.png" alt="logo"><p class="logoText">React</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/jsx.png" alt="logo"><p class="logoText">JSX</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/reactstrap.png" alt="logo"><p class="logoText">ReactStrap</p></div>
+      <br />
+      <div class="logoDiv"><img class="logo" src="../images/icons/bootstrap.png" alt="logo"><p class="logoText">Bootstrap</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/bulma.png" alt="logo"><p class="logoText">Bulma</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/grunt.png" alt="logo"><p class="logoText">Grunt</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/python.svg" alt="logo"><p class="logoText">Python</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/django.svg" alt="logo"><p class="logoText">Django</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/browserify.png" alt="logo"><p class="logoText">Browserify</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/jquery.png" alt="logo"><p class="logoText">jQuery</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/postman.svg" alt="logo"><p class="logoText">Postman</p></div>
+      <div class="logoDiv"><img class="logo" src="../images/icons/semanticui.png" alt="logo"><p class="logoText">Semantic UI</p></div>
     </div>
   </section>
 
   <!-- Resume -->
   <section class="section" id="resume">
-    <div class="section-heading">
-      <h3 class="title is-2">Resume</h3>
-      <h4 class="subtitle is-5">More about my past</h4>
-      <a href="#" class="button is-link is-medium">
-        <span class="icon">
-          <i class="fas fa-file-alt"></i>
-        </span>
-        <span>Download My Resume</span>
-      </a>
-    </div>
-  </section>
+      <div class="section-heading">
+        <h3 class="title is-2">Resume</h3>
+        <h4 class="subtitle is-5">More about my past</h4>
+        <a href="https://drive.google.com/open?id=1gWycYNT00rtwCpdC4a7MyEO7CquHveMY" target="_blank" class="button is-link is-medium">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Download My Resume</span>
+        </a>
+      </div>
+    </section>
 
   <!-- Portfolio -->
   <section class="section" id="portfolio">
@@ -781,19 +671,78 @@
   </section>
 
   <!-- Footer -->
-  <!-- <footer class="footer">
-    <div class="section-heading">
-      <p>
-        <strong>Site</strong> by <a href="https://mubaidr.js.org">Robby Hecht</a>. The
-        source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-      </p>
-    </div>
-  </footer> -->
+  <footer class="footer">
+      <div class="navbar-end">
+          <a class="navbar-item" id="navbar-item" href="#">
+            <span class="icon">
+              <!-- <i class="fas fa-info"></i> -->
+            </span>
+            <span>Home</span>
+          </a>
+          <a class="navbar-item" id="navbar-item" href="#about">
+            <span class="icon">
+              <!-- <i class="fas fa-info"></i> -->
+            </span>
+            <span>About</span>
+          </a>
+          <a class="navbar-item" id="navbar-item" href="#technology">
+            <span class="icon">
+              <!-- <i class="fas fa-bars"></i> -->
+            </span>
+            <span>Tech</span>
+          </a>
+          <a class="navbar-item" id="navbar-item" href="#resume">
+            <span class="icon">
+              <!-- <i class="fas fa-file-alt"></i> -->
+            </span>
+            <span>Resume</span>
+          </a>
+          <a class="navbar-item" id="navbar-item" href="#portfolio">
+            <span class="icon">
+              <!-- <i class="fas fa-th-list"></i> -->
+            </span>
+            <span>Portfolio</span>
+          </a>
+          <a class="navbar-item" id="navbar-item" href="#contact">
+            <span class="icon">
+              <!-- <i class="fas fa-envelope"></i> -->
+            </span>
+            <span>Contact</span>
+          </a>
+        </div>
+  </footer>
 </body>
 
 </html>
 
 
-<!-- data-target="navbarExampleTransparentExample"
-id="navbarExampleTransparentExample" -->
+
+
+        <!-- <div class="column">
+
+          <div class="card">
+            <div class="card-content">
+              <h3 class="title is-4">Ways to Find Me</h3>
+
+              <div class="content">
+                <table class="table-profile">
+                  <tr>
+                    <th colspan="1"></th>
+                    <th colspan="2"></th>
+                  </tr>
+                  <tr>
+                    <p>865.406.7489</p>
+                  </tr>
+                  <tr>
+                    <p>robbyhecht@gmail.com</p>
+                  </tr>
+                </table>
+              </div>
+              <br>
+              <div class="buttons has-addons is-centered">
+                <a href="#" class="button is-link">Github</a>
+                <a href="#" class="button is-link">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div> -->
