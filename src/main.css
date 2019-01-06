@@ -35,6 +35,11 @@ th {
   margin-bottom: 2em;
 }
 
+.section {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .section-heading {
   text-align: center;
   margin-top: 2em;
@@ -79,7 +84,7 @@ nav {
 }
 
 #picContainer {
-  width: 70%;
+  width: 80%;
   margin-bottom: 23px;
 }
 
@@ -116,4 +121,37 @@ nav {
 
 #navbar-item:hover {
   color: lightgray;
+}
+
+#resumeAboutButtonContainer {
+  text-align: center;
+}
+
+#resumeAboutButton {
+  background-color: rgb(47, 108, 143);
+  color: white;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  width: 115px;
+  height: 115px;
+}
+
+.iconText {
+  margin-bottom: 2.5rem;
+}
+
+.logo {
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
 }
