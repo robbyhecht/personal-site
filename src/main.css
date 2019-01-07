@@ -180,4 +180,23 @@ nav {
   height: auto;
 }
 
+/* .resumeContainer {
+  background-color: #C4BDB3;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+.resumeButtonTwo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resumeItem {
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
 
