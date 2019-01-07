@@ -119,6 +119,9 @@ nav {
   padding: 30px 15px 30px 15px;
   background-color: #CFE1F6;
   border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #navbar-item:hover {
@@ -157,3 +160,43 @@ nav {
   text-align: center;
   word-wrap: break-word;
 }
+
+.heroPicContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: -100px;
+}
+
+.headerPic {
+  border: 7px solid white;
+  -webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
+	-moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
+	box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
+}
+
+.headerFigure {
+  width: 180px;
+  height: auto;
+}
+
+/* .resumeContainer {
+  background-color: #C4BDB3;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+.resumeButtonTwo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resumeItem {
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
