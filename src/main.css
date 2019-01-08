@@ -1,3 +1,13 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
@@ -29,10 +39,6 @@ th {
 .custom-tags {
   text-align: center !important;
   display: block;
-}
-
-.portfolio-container .card {
-  margin-bottom: 2em;
 }
 
 .section {
@@ -188,23 +194,38 @@ nav {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 } */
 
-.resumeButtonTwo {
+.resumeResumeButtonContainer {
   text-align: center;
   margin-top: 50px;
 }
 
+.resumeResumeButton {
+  background-color: rgb(47, 108, 143);
+  color: white;
+  border-radius: 4px;
+}
+
+
+
 .resumeItem {
   background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+	/* -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0); */
   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .portfolioCard {
-  border-radius: 3px;
+  border-radius: 4px;
+	/* -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0); */
   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .card-header-title {
@@ -219,9 +240,49 @@ nav {
 }
 
 .contactText {
-  /* font-size: 1.2em; */
-  color: rgb(47, 47, 47);
+  color: rgb(36, 36, 36);
   padding-top: 6px;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
+a:link {
+  text-decoration: none !important;
+}
+
+/* .resumeContainer {
+  margin: 0;
+  padding: 100px 50px 100px 50px;
+  background-color: #5D5664;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+/* .portfolioContainer {
+  padding: 100px 50px 100px 50px;
+  background-color: #CFE1F6;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+/* .mainContactContainer {
+  padding: 100px 50px 100px 50px;
+  background-color: #5D5664;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+#contactContainer {
+  border-radius: 4px;
+	/* -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0); */
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
