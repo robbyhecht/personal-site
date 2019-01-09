@@ -1,3 +1,13 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
@@ -31,10 +41,6 @@ th {
   display: block;
 }
 
-.portfolio-container .card {
-  margin-bottom: 2em;
-}
-
 .section {
   margin-left: 3%;
   margin-right: 3%;
@@ -44,6 +50,75 @@ th {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 6em;
+  text-transform: uppercase;
+  /* border-bottom: 4px solid rgb(83, 83, 83);
+  border-radius: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: rgb(249, 249, 249); */
+}
+
+.socialLink {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 1.4em;
+  margin-top: 50px;
+}
+
+.socialLink:hover {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.4em;
+  margin-top: 40px;
+  border: 2px solid white;
+  color: black;
+  background-color: white;
+  transition: all 0.6s ease 0s;
+}
+
+.socialLinkedin {
+  margin-right: 8px;
+}
+
+.socialGithub {
+  margin-left: 8px;
+}
+
+.socialLinkContact {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.4em;
+  margin-top: 50px;
+  /* border: 2px solid rgb(0, 50, 107);
+  color: rgb(0, 50, 107); */
+  border: 2px solid rgb(47, 108, 143);
+  color: rgb(47, 108, 143);
+}
+
+.socialLinkContact:hover {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.4em;
+  margin-top: 50px;
+  color: white;
+  border: 2px solid rgb(47, 108, 143);
+  background-color: rgb(47, 108, 143);
+  /* border: 2px solid rgb(0, 50, 107);
+  background-color: rgb(0, 50, 107); */
+  transition: all 0.6s ease 0s;
+}
+
+.socialLinksContactContainer {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: rgb(1, 1, 1);
 }
 
 .navbar-end {
@@ -104,24 +179,24 @@ nav {
 
 #about-image {
   border-radius: 4px;
-	-webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-  box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-webkit-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
+  transition: all 0.1s ease 0s
+}
+
+#about-image:hover {
+  border-radius: 4px;
+  -webkit-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
+  box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
+  transform: translateY(-2px) translateX(1px);
+  transition: all 0.2s ease 0s
 }
 
 #about-box {
   border-radius: 2px;
   margin: 0 10% 0 10%;
-}
-
-.about-div {
-  /* margin: 0 -40px 0 -40px; */
-  padding: 30px 15px 30px 15px;
-  background-color: #CFE1F6;
-  border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #navbar-item:hover {
@@ -137,7 +212,14 @@ nav {
   color: white;
   border-radius: 4px;
   width: 200px;
-  height: 40px
+  height: 40px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease 0s;
+}
+
+#resumeAboutButton:hover {
+  background-color: rgb(40, 92, 122);
+  color: rgb(238, 238, 238);
 }
 
 .techStack {
@@ -159,6 +241,12 @@ nav {
   align-items: center;
   text-align: center;
   word-wrap: break-word;
+  transition: all 0.1s ease 0s
+}
+
+.logoDiv:hover {
+  transform: translateY(-2px) translateX(1px);
+  transition: all 0.2s ease 0s
 }
 
 .heroPicContainer {
@@ -188,26 +276,133 @@ nav {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 } */
 
-.resumeButtonTwo {
+.resumeResumeButtonContainer {
   text-align: center;
   margin-top: 50px;
 }
 
+.resumeResumeButton {
+  background-color: rgb(47, 108, 143);
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease 0s;
+  /* cursor: pointer; */
+  /* outline: none; */
+}
+
+.resumeResumeButton:hover {
+  background-color: rgb(40, 92, 122);
+  color: rgb(238, 238, 238);
+  /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); */
+  /* transform: translateY(-2px); */
+}
+
+
+
 .resumeItem {
   background-color: rgb(255, 255, 255);
+  border-radius: 4px;
   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.resumeItem:hover {
+  transform: translateY(-2px) translateX(1px);
+  transition: all 0.2s ease 0s
+}
+
 .portfolioCard {
-  border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+	-webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  /* -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.portfolioCard:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease 0s
 }
 
 .card-header-title {
   text-align: center;
 }
 
+.contactIcon {
+  /* border: 2px solid rgb(0, 50, 107); */
+  /* color: rgb(0, 50, 107); */
+  color: rgb(47, 108, 143);
+  border: 2px solid rgb(47, 108, 143);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contactText {
+  color: rgb(36, 36, 36);
+  padding-top: 6px;
+  font-size: 1.3em;
+}
+
+#contactEmail:hover {
+  color: gray;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+#contactContainer {
+  border-radius: 40px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+.about-div {
+  padding: 30px 15px 30px 15px;
+  background-color: #CFE1F6;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .resumeContainer {
+  margin: 0;
+  padding: 100px 75px 100px 75px;
+  background-color: #5D5664;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+.portfolioContainer {
+  padding: 100px 50px 100px 50px;
+  background-color: #648767;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .mainContactContainer {
+  padding: 100px 50px 100px 50px;
+  background-color: 648767;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+}
