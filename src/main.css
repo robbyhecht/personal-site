@@ -51,13 +51,66 @@ th {
   margin-top: 2em;
   margin-bottom: 6em;
   text-transform: uppercase;
-  border-bottom: 4px solid rgb(83, 83, 83);
+  /* border-bottom: 4px solid rgb(83, 83, 83);
   border-radius: 50%;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 2px;
   padding-right: 2px;
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(249, 249, 249); */
+}
+
+.socialLink {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 1.4em;
+  margin-top: 50px;
+}
+
+.socialLink:hover {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.4em;
+  margin-top: 40px;
+  border: 2px solid white;
+  color: black;
+  background-color: white;
+  transition: all 0.6s ease 0s;
+}
+
+.socialLinkedin {
+  margin-right: 8px;
+}
+
+.socialGithub {
+  margin-left: 8px;
+}
+
+.socialLinkContact {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.4em;
+  margin-top: 50px;
+  border: 2px solid rgb(0, 50, 107);
+  color: rgb(0, 50, 107);
+}
+
+.socialLinkContact:hover {
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.4em;
+  margin-top: 50px;
+  border: 2px solid rgb(0, 50, 107);
+  color: white;
+  background-color: rgb(0, 50, 107);
+  transition: all 0.6s ease 0s;
+}
+
+.socialLinksContactContainer {
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
@@ -252,15 +305,10 @@ nav {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.resumeImage {
-  transition: all 0.1s ease 0s;
-}
-
-.resumeImage:hover {
+.resumeItem:hover {
   transform: translateY(-2px) translateX(1px);
   transition: all 0.2s ease 0s
 }
-
 
 .portfolioCard {
   border-radius: 4px;
@@ -270,6 +318,11 @@ nav {
   /* -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.portfolioCard:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease 0s
 }
 
 .card-header-title {
@@ -317,7 +370,7 @@ a:link {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.resumeContainer {
+/* .resumeContainer {
   margin: 0;
   padding: 100px 75px 100px 75px;
   background-color: #5D5664;
@@ -325,7 +378,7 @@ a:link {
   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .portfolioContainer {
   padding: 100px 50px 100px 50px;
