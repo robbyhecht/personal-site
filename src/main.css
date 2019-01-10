@@ -325,7 +325,7 @@ nav {
 }
 
 .portfolioCard:hover {
-  opacity: 0.8;
+  background-color: rgb(230, 230, 230);
   transition: all 0.2s ease 0s
 }
 
