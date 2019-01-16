@@ -182,17 +182,17 @@ nav {
 	-webkit-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
   box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
-  transition: all 0.1s ease 0s
+  /* transition: all 0.1s ease 0s */
 }
 
-#about-image:hover {
+/* #about-image:hover {
   border-radius: 4px;
   -webkit-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
   box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
   transform: translateY(-2px) translateX(1px);
   transition: all 0.2s ease 0s
-}
+} */
 
 #about-box {
   border-radius: 2px;
