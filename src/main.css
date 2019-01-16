@@ -311,7 +311,7 @@ nav {
 
 .resumeItem:hover {
   transform: translateY(-2px) translateX(1px);
-  transition: all 0.2s ease 0s
+  transition: all 0.2s ease 0s;
 }
 
 .portfolioCard {
@@ -322,16 +322,34 @@ nav {
   /* -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
+  transition: all 0.8s ease 0s;
 }
 
 .portfolioCard:hover {
-  background-color: rgb(230, 230, 230);
-  transition: all 0.2s ease 0s
+  /* background-color: rgb(235, 235, 235);
+  transition: all 0.2s ease 0s */
+  transform: translateY(-15px);
+  -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8.5px 8px -6px rgb(0, 0, 0);
+  transition: all 0.8s ease 0s;
+}
+
+.portfolio-button {
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	outline: inherit;
 }
 
 .card-header-title {
   text-align: center;
 }
+
+/* .preview:hover {
+  color: #648767;
+} */
 
 .contactIcon {
   /* border: 2px solid rgb(0, 50, 107); */
@@ -362,8 +380,6 @@ a:link {
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 
 @media screen and (min-width: 800px) {
