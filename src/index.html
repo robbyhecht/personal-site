@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Robby Hecht Website</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
@@ -16,21 +15,19 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
       rel="stylesheet"
     />
-    <!-- Bulma Version 0.7.2-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
     />
-    <!-- <link href="https://unpkg.com/bulma-fluent@0.3.13/css/bulma.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="main.css" />
     <script async type="text/javascript" src="main.js"></script>
   </head>
 
   <body>
-    <!-- Header -->
 
     <section class="hero is-fullheight">
-      <!-- Navigation bar -->
+
+      <!-- Navbar -->
 
       <nav class="navbar is-link is-fixed-top is-transparent" id="mynav">
         <div class="navbar-brand">
@@ -45,36 +42,24 @@
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-brand navbar-end">
             <a class="navbar-item" id="navbar-item" href="#">
-              <!-- <span class="icon"> <i class="fas fa-info"></i> </span> -->
               <span>Robby Hecht</span>
             </a>
           </div>
 
           <div class="navbar-end">
             <a class="navbar-item" id="navbar-item" href="#about">
-              <!-- <span class="icon"> <i class="fas fa-info"></i> </span> -->
               <span>About</span>
             </a>
             <a class="navbar-item" id="navbar-item" href="#technologies">
-              <!-- <span class="icon"> <i class="fas fa-bars"></i> </span> -->
               <span>Tech</span>
             </a>
             <a class="navbar-item" id="navbar-item" href="#resume">
-              <!-- <span class="icon"> -->
-                <!-- <i class="fas fa-file-alt"></i> -->
-              <!-- </span> -->
               <span>Resume</span>
             </a>
             <a class="navbar-item" id="navbar-item" href="#portfolio">
-              <!-- <span class="icon"> -->
-                <!-- <i class="fas fa-th-list"></i> -->
-              <!-- </span> -->
               <span>Portfolio</span>
             </a>
             <a class="navbar-item" id="navbar-item" href="#contact">
-              <!-- <span class="icon"> -->
-                <!-- <i class="fas fa-envelope"></i> -->
-              <!-- </span> -->
               <span>Contact</span>
             </a>
           </div>
@@ -103,14 +88,11 @@
     </section>
 
     <!-- About -->
+    
     <section class="section" id="about">
-      <!-- Title -->
-
       <div class="section-heading"><h3 class="title is-2">About Me</h3></div>
 
-      <!-- Main Card -->
       <div class="columns about-div">
-        <!-- About summary -->
 
         <div class="column summary">
           <div class="container" id="AboutContentContainer">
@@ -144,21 +126,19 @@
 
         <div class="column about-pic">
           <div class="container" id="picContainer">
-            <!-- Profile picture -->
 
-            <!-- <figure class="image is-square"> -->
             <img
               id="about-image"
               src="../images/Robby Hecht at table (1).jpg"
               alt="Robby Hecht"
             />
-            <!-- </figure> -->
           </div>
         </div>
       </div>
     </section>
 
-    <!-- technologies -->
+    <!-- Technologies -->
+
     <section class="section" id="technologies">
       <div class="section-heading">
         <h3 class="title is-2">Technologies</h3>
@@ -391,7 +371,8 @@
 
           <!-- Virtual Agent -->
 
-          <div class="tile is-parent">
+            <div class="tile is-parent">
+
             <div class="tile is-child">
               <div class="card portfolioCard">
                 <header class="card-header">
@@ -404,18 +385,38 @@
                   <figure class="image">
                     <img
                       src="../images/portfolio/Virtual_Agent_Tour_Page.jpg"
-                      alt="Cheatsheet template screenshot"
+                      alt="Virtual Agent Tour Page Image"
                     />
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a href="#" class="card-footer-item"
-                    >Preview</a
-                  >
+                  <button class="portfolio-button card-footer-item" id="card-footer-item">
+                    <a><p class="preview">Preview</p></a>
+                  </button>
+
+                  <!-- add 'is-active' class to the below .modal level in js when preview button is pressed. Remove the class when exiting the modal -->
+                  <div class="modal">
+                      <div class="modal-background"></div>
+                      <div class="modal-card">
+                        <header class="modal-card-head">
+                          <p class="modal-card-title">Virtual Agent</p>
+                          <button class="delete" aria-label="close"></button>
+                        </header>
+                        <section class="modal-card-body">
+                          <!-- Insert gif and description here -->
+                        </section>
+                        <footer class="modal-card-foot">
+                          <button class="button is-success">Source Code</button>
+                        </footer>
+                      </div>
+                    </div>
+
                   <a
                     href="https://github.com/robbyhecht/virtual-agent"
+                    target="_blank"
                     class="card-footer-item"
-                    >Source Code</a
+                    >
+                    Source Code</a
                   >
                 </footer>
               </div>
@@ -439,16 +440,17 @@
                   <figure class="image">
                     <img
                       src="../images/portfolio/nutshell.jpg"
-                      alt="Cheatsheet template screenshot"
+                      alt="Nutshell Image"
                     />
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a href="#" class="card-footer-item"
-                    >Preview</a
-                  >
+                  <button class="portfolio-button card-footer-item">
+                    <a><p class="preview">Preview</p></a>
+                  </button>
                   <a
                     href="https://github.com/Team-Acornucopia/Nutshell-React"
+                    target="_blank"
                     class="card-footer-item"
                     >Source Code</a
                   >
@@ -473,16 +475,17 @@
                   <figure class="image">
                     <img
                       src="../images/portfolio/nashville_broadway.jpg"
-                      alt="Cheatsheet template screenshot"
+                      alt="Downtown Nashville"
                     />
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a href="#" class="card-footer-item"
-                    >Preview</a
-                  >
+                  <button class="portfolio-button card-footer-item">
+                    <a><p class="preview">Preview</p></a>
+                  </button>
                   <a
                     href="https://github.com/nss-day-cohort-28/book-3-welcome-to-nashville-crushit"
+                    target="_blank"
                     class="card-footer-item"
                     >Source Code</a
                   >
@@ -551,6 +554,7 @@
 
 
     <!-- Footer -->
+
     <footer class="footer">
       <div class="navbar-end">
         <a class="navbar-item" id="navbar-item" href="#">
@@ -575,32 +579,3 @@
     </footer>
   </body>
 </html>
-
-<!-- <div class="column">
-
-          <div class="card">
-            <div class="card-content">
-              <h3 class="title is-4">Ways to Find Me</h3>
-
-              <div class="content">
-                <table class="table-profile">
-                  <tr>
-                    <th colspan="1"></th>
-                    <th colspan="2"></th>
-                  </tr>
-                  <tr>
-                    <p>865.406.7489</p>
-                  </tr>
-                  <tr>
-                    <p>robbyhecht@gmail.com</p>
-                  </tr>
-                </table>
-              </div>
-              <br>
-              <div class="buttons has-addons is-centered">
-                <a href="#" class="button is-link">Github</a>
-                <a href="#" class="button is-link">LinkedIn</a>
-              </div>
-            </div>
-          </div>
-        </div> -->

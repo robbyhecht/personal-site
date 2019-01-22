@@ -182,17 +182,17 @@ nav {
 	-webkit-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
   box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
-  transition: all 0.1s ease 0s
+  /* transition: all 0.1s ease 0s */
 }
 
-#about-image:hover {
+/* #about-image:hover {
   border-radius: 4px;
   -webkit-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
   box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
   transform: translateY(-2px) translateX(1px);
   transition: all 0.2s ease 0s
-}
+} */
 
 #about-box {
   border-radius: 2px;
@@ -299,8 +299,6 @@ nav {
   /* transform: translateY(-2px); */
 }
 
-
-
 .resumeItem {
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
@@ -309,9 +307,13 @@ nav {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.resumeItem:hover {
-  transform: translateY(-2px) translateX(1px);
-  transition: all 0.2s ease 0s
+.resumeItem:hover .resumeImage {
+  transform: translateY(0px) translateX(50px);
+  transition: all 0.8s ease 0s;
+}
+
+.resumeItem .resumeImage {
+  transition: all 0.8s ease 0s;
 }
 
 .portfolioCard {
@@ -322,16 +324,34 @@ nav {
   /* -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
+  transition: all 0.8s ease 0s;
 }
 
-.portfolioCard:hover {
-  opacity: 0.8;
-  transition: all 0.2s ease 0s
+/* .portfolioCard:hover {
+  background-color: rgb(235, 235, 235);
+  transition: all 0.2s ease 0s;
+  transform: scale(1.02);
+  -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 2px 2px -2px rgb(0, 0, 0);
+  transition: all 0.8s ease 0s;
+} */
+
+.portfolio-button {
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	outline: inherit;
 }
 
 .card-header-title {
   text-align: center;
 }
+
+/* .preview:hover {
+  color: #648767;
+} */
 
 .contactIcon {
   /* border: 2px solid rgb(0, 50, 107); */
@@ -362,8 +382,6 @@ a:link {
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 
 @media screen and (min-width: 800px) {
