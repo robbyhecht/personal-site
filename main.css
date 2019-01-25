@@ -135,7 +135,7 @@ nav {
 }
 
 .has-bg-img {
-  background: url('../images/Nashville_Ped_Bridge.jpg');
+  background: url('images/Nashville_Ped_Bridge.jpg');
   background-size: cover;
 }
 
