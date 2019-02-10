@@ -147,16 +147,14 @@ nav {
   color: white;
 }
 
-#AboutContentContainer {
-  text-align: left;
-  line-height: 1.6;
-  width: 90%;
-  padding-top: 20px;
+#about {
+  margin-top: 20px;
 }
 
 .about-pic {
-  margin-top: 28px;
+  /* margin-top: 28px; */
 }
+
 
 #picContainer {
   width: 80%;
@@ -173,26 +171,12 @@ nav {
   text-align: center;
 }
 
-.summary {
-  margin-top: 25px
-}
-
 #about-image {
   border-radius: 4px;
 	-webkit-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
   box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
-  /* transition: all 0.1s ease 0s */
 }
-
-/* #about-image:hover {
-  border-radius: 4px;
-  -webkit-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
-	-moz-box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
-  box-shadow: 0.5px 8.3px 7px -6px rgb(0, 0, 0);
-  transform: translateY(-2px) translateX(1px);
-  transition: all 0.2s ease 0s
-} */
 
 #about-box {
   border-radius: 2px;
@@ -253,11 +237,11 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  margin-top: -100px;
+  margin-top: -20px;
 }
 
 .headerPic {
-  border: 7px solid white;
+  border: 7px solid rgb(34, 34, 34);
   -webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
 	-moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
 	box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
@@ -386,13 +370,20 @@ a:link {
 
 @media screen and (min-width: 800px) {
 
+#AboutContentContainer {
+  text-align: left;
+  line-height: 1.6;
+  width: 90%;
+  padding-top: 80px;
+}
+
 .about-div {
-  padding: 30px 15px 30px 15px;
-  background-color: #CFE1F6;
-  border-radius: 3px;
+  padding: 0px 15px 30px 15px;
+  /* background-color: #CFE1F6; */
+  /* border-radius: 3px;
   -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
 }
 
 /* .resumeContainer {
