@@ -51,13 +51,6 @@ th {
   margin-top: 2em;
   margin-bottom: 6em;
   text-transform: uppercase;
-  /* border-bottom: 4px solid rgb(83, 83, 83);
-  border-radius: 50%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 2px;
-  padding-right: 2px;
-  background-color: rgb(249, 249, 249); */
 }
 
 .socialLink {
@@ -183,8 +176,8 @@ nav {
   margin: 0 10% 0 10%;
 }
 
-#navbar-item:hover {
-  color: lightgray;
+.navbar-item:hover {
+  color: lightgray !important;
 }
 
 #resumeAboutButtonContainer {
@@ -252,14 +245,6 @@ nav {
   height: auto;
 }
 
-/* .resumeContainer {
-  background-color: #C4BDB3;
-  border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-} */
-
 .resumeResumeButtonContainer {
   text-align: center;
   margin-top: 50px;
@@ -272,15 +257,11 @@ nav {
   border-radius: 4px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease 0s;
-  /* cursor: pointer; */
-  /* outline: none; */
 }
 
 .resumeResumeButton:hover {
   background-color: rgb(40, 92, 122);
   color: rgb(238, 238, 238);
-  /* box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); */
-  /* transform: translateY(-2px); */
 }
 
 .resumeItem {
