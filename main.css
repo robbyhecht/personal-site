@@ -13,6 +13,12 @@ body {
   overflow: hidden;
 }
 
+.card-content {
+  height: 205px;
+  display: flex;
+  align-items: center;
+}
+
 .card-content h3 {
   text-align: center;
 }
@@ -347,6 +353,11 @@ a:link {
 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/* .trainer-image {
+  width: 262px;
+  height: 157px;
+} */
 
 
 @media screen and (min-width: 800px) {

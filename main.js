@@ -18,3 +18,15 @@ window.onscroll = function changeClass() {
   }
 }
 
+// handles opening modal
+function openModal(modal) {
+  let openMod = document.getElementById(modal)
+  openMod.classList.add('is-active')
+}
+
+// handles closing modal
+function closeModal(modal) {
+  let closeMod = document.getElementById(modal)
+  closeMod.classList.remove('is-active')
+}
+
