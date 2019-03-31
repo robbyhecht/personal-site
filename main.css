@@ -14,7 +14,6 @@ body {
 }
 
 .card-content {
-  height: 205px;
   display: flex;
   align-items: center;
 }
@@ -92,8 +91,6 @@ th {
   padding: 10px;
   font-size: 1.4em;
   margin-top: 50px;
-  /* border: 2px solid rgb(0, 50, 107);
-  color: rgb(0, 50, 107); */
   border: 2px solid rgb(47, 108, 143);
   color: rgb(47, 108, 143);
 }
@@ -106,8 +103,6 @@ th {
   color: white;
   border: 2px solid rgb(47, 108, 143);
   background-color: rgb(47, 108, 143);
-  /* border: 2px solid rgb(0, 50, 107);
-  background-color: rgb(0, 50, 107); */
   transition: all 0.6s ease 0s;
 }
 
@@ -150,21 +145,10 @@ nav {
   margin-top: 20px;
 }
 
-.about-pic {
-  /* margin-top: 28px; */
-}
-
-
 #picContainer {
   width: 80%;
   margin-bottom: 23px;
 }
-
-/* .profileContainer {
-  display: flex;
-  justify-content: center;
-  width: 80%
-} */
 
 .subtitle {
   text-align: center;
@@ -292,21 +276,18 @@ nav {
 	-webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
   box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-  /* -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
   transition: all 0.8s ease 0s;
 }
 
-/* .portfolioCard:hover {
-  background-color: rgb(235, 235, 235);
-  transition: all 0.2s ease 0s;
-  transform: scale(1.02);
-  -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-	-moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
-  box-shadow: 0 2px 2px -2px rgb(0, 0, 0);
-  transition: all 0.8s ease 0s;
-} */
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.tile {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .portfolio-button {
   background: none;
@@ -320,13 +301,7 @@ nav {
   text-align: center;
 }
 
-/* .preview:hover {
-  color: #648767;
-} */
-
 .contactIcon {
-  /* border: 2px solid rgb(0, 50, 107); */
-  /* color: rgb(0, 50, 107); */
   color: rgb(47, 108, 143);
   border: 2px solid rgb(47, 108, 143);
   border-radius: 50%;
@@ -354,61 +329,26 @@ a:link {
   box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* .trainer-image {
-  width: 262px;
-  height: 157px;
-} */
-
-
 @media screen and (min-width: 800px) {
 
-/* .has-bg-img-lg {
-background: url('images/Nashville_Ped_Bridge.jpg');
-background-size: cover;
-} */
+  #AboutContentContainer {
+    text-align: left;
+    line-height: 1.6;
+    width: 90%;
+    padding-top: 80px;
+  }
 
-#AboutContentContainer {
-  text-align: left;
-  line-height: 1.6;
-  width: 90%;
-  padding-top: 80px;
-}
+  .about-div {
+    padding: 0px 15px 30px 15px;
+  }
 
-.about-div {
-  padding: 0px 15px 30px 15px;
-  /* background-color: #CFE1F6; */
-  /* border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5); */
-}
-
-/* .resumeContainer {
-  margin: 0;
-  padding: 100px 75px 100px 75px;
-  background-color: #5D5664;
-  border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-} */
-
-.portfolioContainer {
-  padding: 100px 50px 100px 50px;
-  background-color: #648767;
-  border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* .mainContactContainer {
-  padding: 100px 50px 100px 50px;
-  background-color: 648767;
-  border-radius: 3px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-} */
+  .portfolioContainer {
+    padding: 100px 50px 100px 50px;
+    background-color: #648767;
+    border-radius: 3px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
 
 }
