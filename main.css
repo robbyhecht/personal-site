@@ -53,7 +53,7 @@ th {
 
 .section-heading {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 6em;
   text-transform: uppercase;
 }
@@ -147,7 +147,7 @@ nav {
 
 #picContainer {
   width: 80%;
-  margin-bottom: 23px;
+  margin-top: 15px;
 }
 
 .subtitle {
@@ -159,6 +159,11 @@ nav {
 	-webkit-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
 	-moz-box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
   box-shadow: 0 8px 8px -6px rgb(0, 0, 0);
+}
+
+.about-pic {
+  display: flex;
+  align-items: center;
 }
 
 #about-box {
@@ -196,12 +201,12 @@ nav {
 }
 
 .logo {
-  width: 115px;
-  height: 115px;
+  width: 100px;
+  height: 100px;
 }
 
 .logoText {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .logoDiv {
@@ -285,7 +290,7 @@ nav {
 }
 
 .tile {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 30px;
 }
 
@@ -335,11 +340,17 @@ a:link {
     text-align: left;
     line-height: 1.6;
     width: 90%;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .about-div {
-    padding: 0px 15px 30px 15px;
+    padding: 0px 15px 20px 15px;
+    /* border: 1px solid black; */
+    background-color: #d6e2f5;
+    border-radius: 3px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .portfolioContainer {
@@ -349,6 +360,42 @@ a:link {
     -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
     box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  #picContainer {
+    margin-top: 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logoText {
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .section-heading {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+  }
+
+  .section {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #resume {
+    margin-top: -2em;
   }
 
 }
