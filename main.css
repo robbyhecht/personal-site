@@ -229,14 +229,14 @@ nav {
 }
 
 .headerPic {
-  border: 7px solid rgb(34, 34, 34);
+  border: 5px solid lightgray;
   -webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
 	-moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
 	box-shadow:0 0 30px rgba(0, 0, 0, 0.55);
 }
 
 .headerFigure {
-  width: 180px;
+  width: 220px;
   height: auto;
 }
 
