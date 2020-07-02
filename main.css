@@ -212,6 +212,8 @@ nav {
 .logoDiv {
   align-items: center;
   text-align: center;
+  margin-left: 4px;
+  margin-right: 4px;
   word-wrap: break-word;
   transition: all 0.1s ease 0s
 }
